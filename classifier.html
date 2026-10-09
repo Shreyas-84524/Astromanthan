@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEEP SKY DIVIDE — Star / Galaxy Classification</title>
+  <!-- Modern Monospace and Display Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="classifier.css">
+</head>
+<body class="hud-body">
+  <!-- Full-screen Ken Burns background & particle canvas -->
+  <div class="hud-bg" id="hudBg">
+    <div class="hud-bg__image" id="bgImage" style="background-image: url('deep-sky.jpg');"></div>
+    <div class="hud-bg__overlay"></div>
+    <canvas class="hud-bg__canvas" id="starsCanvas"></canvas>
+  </div>
+
+  <!-- Main HUD Application Shell -->
+  <div class="hud-shell">
+    <!-- Header -->
+    <header class="hud-header" id="hudHeader">
+      <div class="hud-header__identity">
+        <div class="hud-header__mark">
+          <svg class="hud-icon hud-icon--amber" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M12 2v3M12 19v3M2 12h3M19 12h3" />
+            <path d="M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="hud-header__title">DEEP SKY DIVIDE</h1>
+          <p class="hud-header__subtitle">STAR / GALAXY CLASSIFICATION</p>
+        </div>
+      </div>
+
+      <nav class="hud-header__nav">
+        <a href="index.html" class="hud-nav-link">
+          <svg class="hud-icon hud-icon--sm" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 9.5L10 3l7 6.5V17a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" />
+          </svg>
+          HOME
+        </a>
+        <a href="classifier.html" class="hud-nav-link hud-nav-link--active">
+          <svg class="hud-icon hud-icon--sm" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="10" cy="10" r="7" />
+            <path d="M10 6v8M6 10h8" />
+          </svg>
+          CLASSIFIER
+        </a>
+        <div class="hud-server-badge" id="serverBadge" title="Click to test backend server status at http://localhost:8000">
+          <span class="hud-server-beacon" id="serverBeacon"></span>
+          <span class="hud-server-text" id="serverStatusText">CHECKING SERVER...</span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Two-Column Primary Screen Layout -->
+    <main class="hud-main">
+      <!-- LEFT: Observation Console Panel -->
+      <section class="hud-panel hud-card hud-console" id="consolePanel">
+        <div class="hud-card__corner hud-card__corner--tl"></div>
+        <div class="hud-card__corner hud-card__corner--tr"></div>
+        <div class="hud-card__corner hud-card__corner--bl"></div>
+        <div class="hud-card__corner hud-card__corner--br"></div>
+
+        <div class="hud-panel__header">
+          <div class="hud-panel__title-wrap">
+            <span class="hud-panel__tag">SEC-01</span>
+            <h2 class="hud-panel__title">OBSERVATION CONSOLE</h2>
+          </div>
+          <span class="hud-panel__meta">SDSS 5-BAND PHOTOMETRY</span>
+        </div>
+
+        <form class="hud-form" id="observationForm" novalidate>
+          <!-- Validation Banner -->
+          <div class="hud-validation-alert" id="validationAlert" aria-live="polite">
+            <svg class="hud-icon hud-icon--alert" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="10" cy="10" r="8" />
+              <line x1="10" y1="6" x2="10" y2="10" />
+              <line x1="10" y1="14" x2="10.01" y2="14" />
+            </svg>
+            <span class="hud-validation-alert__msg" id="validationMsg">Invalid or missing photometric values.</span>
+          </div>
+
+          <!-- Photometric Magnitudes (u, g, r, i, z) -->
+          <div class="hud-section-label">APPARENT MAGNITUDES (AB MAG)</div>
+          <div class="hud-grid hud-grid--3col">
+            <div class="hud-field" data-field="u">
+              <label for="input_u" class="hud-label">
+                <span class="hud-label__band">u</span> Ultraviolet
+              </label>
+              <input type="number" step="0.001" id="input_u" class="hud-input" placeholder="18.32" required>
+            </div>
+            <div class="hud-field" data-field="g">
+              <label for="input_g" class="hud-label">
+                <span class="hud-label__band">g</span> Green
+              </label>
+              <input type="number" step="0.001" id="input_g" class="hud-input" placeholder="16.83" required>
+            </div>
+            <div class="hud-field" data-field="r">
+              <label for="input_r" class="hud-label">
+                <span class="hud-label__band">r</span> Red
+              </label>
+              <input type="number" step="0.001" id="input_r" class="hud-input" placeholder="16.06" required>
+            </div>
+            <div class="hud-field" data-field="i">
+              <label for="input_i" class="hud-label">
+                <span class="hud-label__band">i</span> Near-IR
+              </label>
+              <input type="number" step="0.001" id="input_i" class="hud-input" placeholder="15.98" required>
+            </div>
+            <div class="hud-field" data-field="z">
+              <label for="input_z" class="hud-label">
+                <span class="hud-label__band">z</span> Infrared
+              </label>
+              <input type="number" step="0.001" id="input_z" class="hud-input" placeholder="15.82" required>
+            </div>
+            <div class="hud-field" data-field="redshift">
+              <label for="input_redshift" class="hud-label">
+                <span class="hud-label__band">z_spec</span> Redshift
+              </label>
+              <input type="number" step="0.00001" id="input_redshift" class="hud-input" placeholder="0.00018" required>
+            </div>
+          </div>
+
+          <!-- Morphological Radii (petroR50_r, petroR90_r) -->
+          <div class="hud-section-label">MORPHOLOGY & PETROSIAN RADII (ARCSEC)</div>
+          <div class="hud-grid hud-grid--2col">
+            <div class="hud-field" data-field="petroR50_r">
+              <label for="input_petroR50_r" class="hud-label">
+                <span class="hud-label__band">petroR50_r</span> 50% Flux Radius
+              </label>
+              <input type="number" step="0.01" id="input_petroR50_r" class="hud-input" placeholder="0.85" required>
+            </div>
+            <div class="hud-field" data-field="petroR90_r">
+              <label for="input_petroR90_r" class="hud-label">
+                <span class="hud-label__band">petroR90_r</span> 90% Flux Radius
+              </label>
+              <input type="number" step="0.01" id="input_petroR90_r" class="hud-input" placeholder="1.82" required>
+            </div>
+          </div>
+
+          <!-- Live Derived Features Strip -->
+          <div class="hud-derived-strip">
+            <div class="hud-derived-strip__header">
+              <span class="hud-derived-strip__title">SYNTHESIZED DERIVATIVES</span>
+              <span class="hud-derived-strip__indicator">AUTO-COMPUTED</span>
+            </div>
+            <div class="hud-derived-grid">
+              <div class="hud-derived-item">
+                <span class="hud-derived-item__label">u - g</span>
+                <span class="hud-derived-item__value" id="deriv_ug">—</span>
+              </div>
+              <div class="hud-derived-item">
+                <span class="hud-derived-item__label">g - r</span>
+                <span class="hud-derived-item__value" id="deriv_gr">—</span>
+              </div>
+              <div class="hud-derived-item">
+                <span class="hud-derived-item__label">r - i</span>
+                <span class="hud-derived-item__value" id="deriv_ri">—</span>
+              </div>
+              <div class="hud-derived-item">
+                <span class="hud-derived-item__label">i - z</span>
+                <span class="hud-derived-item__value" id="deriv_iz">—</span>
+              </div>
+              <div class="hud-derived-item hud-derived-item--accent">
+                <span class="hud-derived-item__label">R90 / R50 (CI)</span>
+                <span class="hud-derived-item__value" id="deriv_ci">—</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSV Catalogue Ingestion & Batch Engine -->
+          <div class="hud-csv-box" id="csvBox">
+            <div class="hud-csv-box__header">
+              <div class="hud-csv-box__title-wrap">
+                <svg class="hud-icon hud-icon--xs hud-icon--amber" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M9 1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V5L9 1z" />
+                  <path d="M9 1v4h4" />
+                </svg>
+                <span class="hud-csv-box__title">CSV CATALOGUE & BACKEND SYNC</span>
+              </div>
+              <div class="hud-csv-box__mode-toggle">
+                <label class="hud-switch-label" title="Toggle Backend Inference Server connection">
+                  <input type="checkbox" id="backendToggle" checked>
+                  <span class="hud-switch-slider"></span>
+                  <span class="hud-switch-text" id="backendToggleText">BACKEND API (PORT 8000)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Upload and Template Actions -->
+            <div class="hud-csv-actions">
+              <label class="hud-btn hud-btn--csv" for="csvFileInput" id="btnUploadCsv">
+                <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M2 11v3h12v-3M8 2v9M5 5l3-3 3 3" />
+                </svg>
+                <span>SELECT CSV FILE</span>
+                <input type="file" id="csvFileInput" accept=".csv" class="hud-file-input">
+              </label>
+
+              <button type="button" class="hud-btn hud-btn--csv-ghost" id="btnDownloadTemplate">
+                <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75">
+                  <path d="M2 11v3h12v-3M8 11V2M5 8l3 3 3-3" />
+                </svg>
+                <span>DOWNLOAD TEMPLATE CSV</span>
+              </button>
+            </div>
+
+            <!-- Active CSV Row Navigator (Visible once file is parsed) -->
+            <div class="hud-csv-navigator hud-hidden" id="csvNavigator">
+              <div class="hud-csv-navigator__info">
+                <span class="hud-csv-filename" id="csvFilename">catalog.csv</span>
+                <span class="hud-csv-count" id="csvRowCount">10 objects loaded</span>
+              </div>
+              <div class="hud-csv-controls">
+                <button type="button" class="hud-btn hud-btn--xs" id="btnCsvPrev" title="Previous object">&larr; PREV</button>
+                <span class="hud-csv-index" id="csvRowIndexDisplay">ROW 1 / 10</span>
+                <button type="button" class="hud-btn hud-btn--xs" id="btnCsvNext" title="Next object">NEXT &rarr;</button>
+                <button type="button" class="hud-btn hud-btn--xs hud-btn--accent" id="btnCsvLoadRow">LOAD THIS ROW</button>
+              </div>
+              <div class="hud-csv-batch-bar">
+                <button type="button" class="hud-btn hud-btn--batch" id="btnBatchClassify">
+                  <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75">
+                    <path d="M2 3h12M2 8h12M2 13h12" />
+                  </svg>
+                  <span>BATCH CLASSIFY ALL & EXPORT PREDICTIONS CSV</span>
+                </button>
+                <span class="hud-csv-batch-status" id="csvBatchStatus"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Console Actions / Buttons -->
+          <div class="hud-actions">
+            <div class="hud-magnetic-btn-wrap" id="magneticWrap">
+              <button type="submit" class="hud-btn hud-btn--primary" id="btnClassify">
+                <span class="hud-btn__glow"></span>
+                <svg class="hud-icon hud-icon--sm" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 4v8m-4-4h8" />
+                </svg>
+                <span>CLASSIFY OBJECT</span>
+              </button>
+            </div>
+
+            <div class="hud-btn-presets">
+              <button type="button" class="hud-btn hud-btn--secondary" id="btnSampleStar">
+                <svg class="hud-icon hud-icon--star" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 1l1.8 5.2L15 8l-5.2 1.8L8 15l-1.8-5.2L1 8l5.2-1.8z" />
+                </svg>
+                SAMPLE STAR
+              </button>
+              <button type="button" class="hud-btn hud-btn--secondary" id="btnSampleGalaxy">
+                <svg class="hud-icon hud-icon--galaxy" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <ellipse cx="8" cy="8" rx="7" ry="3.5" transform="rotate(-25 8 8)" />
+                  <circle cx="8" cy="8" r="1.5" fill="currentColor" />
+                </svg>
+                SAMPLE GALAXY
+              </button>
+              <button type="button" class="hud-btn hud-btn--ghost" id="btnRandom">
+                <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M2 11l4-4 4 4 4-4M14 7V3h-4" />
+                </svg>
+                RANDOM
+              </button>
+              <button type="button" class="hud-btn hud-btn--ghost" id="btnReset">
+                <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M14 8A6 6 0 118 2a6 6 0 014.2 1.8L14 5M14 2v3h-3" />
+                </svg>
+                RESET
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- RIGHT: Classification Result Panel -->
+      <section class="hud-panel hud-card hud-result" id="resultPanel">
+        <div class="hud-card__corner hud-card__corner--tl"></div>
+        <div class="hud-card__corner hud-card__corner--tr"></div>
+        <div class="hud-card__corner hud-card__corner--bl"></div>
+        <div class="hud-card__corner hud-card__corner--br"></div>
+
+        <div class="hud-panel__header">
+          <div class="hud-panel__title-wrap">
+            <span class="hud-panel__tag">SEC-02</span>
+            <h2 class="hud-panel__title">CLASSIFICATION RESULT</h2>
+          </div>
+          <div class="hud-state-indicator" id="stateIndicator">
+            <span class="hud-state-indicator__dot"></span>
+            <span class="hud-state-indicator__text" id="stateIndicatorText">IDLE</span>
+          </div>
+        </div>
+
+        <div class="hud-result__content">
+          <!-- STATE 1: Idle Display -->
+          <div class="hud-state-view hud-state-view--idle" id="viewIdle">
+            <div class="hud-radar">
+              <svg class="hud-radar__svg" viewBox="0 0 200 200" fill="none">
+                <circle cx="100" cy="100" r="90" stroke="rgba(255,255,255,0.12)" stroke-width="1" stroke-dasharray="3 4" />
+                <circle cx="100" cy="100" r="65" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                <circle cx="100" cy="100" r="40" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                <circle cx="100" cy="100" r="15" stroke="rgba(245,166,91,0.5)" stroke-width="1.5" />
+                <line x1="100" y1="5" x2="100" y2="195" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                <line x1="5" y1="100" x2="195" y2="100" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+                <circle cx="100" cy="100" r="95" stroke="rgba(245,166,91,0.25)" stroke-width="1.5" stroke-dasharray="20 40" class="hud-radar__outer-ring" />
+                <path d="M100 100 L170 30" stroke="rgba(245,166,91,0.7)" stroke-width="2" class="hud-radar__beam" />
+              </svg>
+            </div>
+            <div class="hud-state-view__caption">AWAITING OBSERVATION</div>
+            <p class="hud-state-view__desc">Load a star/galaxy preset, import a CSV catalogue, or enter photometric parameters to initiate classification inference.</p>
+          </div>
+
+          <!-- STATE 2: Scanning Display -->
+          <div class="hud-state-view hud-state-view--scanning hud-hidden" id="viewScanning">
+            <div class="hud-scanner">
+              <div class="hud-scanner__ring hud-scanner__ring--1"></div>
+              <div class="hud-scanner__ring hud-scanner__ring--2"></div>
+              <div class="hud-scanner__ring hud-scanner__ring--3"></div>
+              <svg class="hud-scanner__reticle" viewBox="0 0 140 140" fill="none">
+                <circle cx="70" cy="70" r="60" stroke="#f5a65b" stroke-width="1.5" stroke-dasharray="10 15 30 15" />
+                <circle cx="70" cy="70" r="45" stroke="rgba(255,255,255,0.4)" stroke-width="1" stroke-dasharray="4 6" />
+                <circle cx="70" cy="70" r="4" fill="#f5a65b" />
+                <line x1="70" y1="15" x2="70" y2="125" stroke="rgba(245,166,91,0.3)" stroke-width="1" />
+                <line x1="15" y1="70" x2="125" y2="70" stroke="rgba(245,166,91,0.3)" stroke-width="1" />
+              </svg>
+            </div>
+            <div class="hud-scramble-text" id="scrambleText">ANALYSING PHOTOMETRY...</div>
+            <div class="hud-scan-progress">
+              <div class="hud-scan-progress__bar" id="scanProgressBar"></div>
+            </div>
+          </div>
+
+          <!-- STATE 3: Active Classification Result -->
+          <div class="hud-state-view hud-state-view--result hud-hidden" id="viewResult">
+            <!-- Top Identity & Morphological Visualization Frame -->
+            <div class="hud-reveal-hero">
+              <!-- Celestial Graphic SVG in Bracketed Frame -->
+              <div class="hud-astro-frame">
+                <div class="hud-astro-frame__bracket hud-astro-frame__bracket--tl"></div>
+                <div class="hud-astro-frame__bracket hud-astro-frame__bracket--tr"></div>
+                <div class="hud-astro-frame__bracket hud-astro-frame__bracket--bl"></div>
+                <div class="hud-astro-frame__bracket hud-astro-frame__bracket--br"></div>
+
+                <!-- Star Point Source SVG with Diffraction Spikes -->
+                <div class="hud-astro-icon hud-astro-icon--star" id="astroIconStar">
+                  <svg viewBox="0 0 120 120" class="hud-svg-star" fill="none">
+                    <defs>
+                      <radialGradient id="starCoreGlow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+                        <stop offset="25%" stop-color="#cbe0ff" stop-opacity="0.9" />
+                        <stop offset="60%" stop-color="#9cc9ff" stop-opacity="0.4" />
+                        <stop offset="100%" stop-color="#9cc9ff" stop-opacity="0" />
+                      </radialGradient>
+                      <radialGradient id="starHalo" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#9cc9ff" stop-opacity="0.35" />
+                        <stop offset="100%" stop-color="#9cc9ff" stop-opacity="0" />
+                      </radialGradient>
+                    </defs>
+                    <circle cx="60" cy="60" r="50" fill="url(#starHalo)" />
+                    <!-- Diffraction Spikes -->
+                    <line x1="60" y1="4" x2="60" y2="116" stroke="#9cc9ff" stroke-width="1.5" stroke-linecap="round" class="hud-spike hud-spike--v" />
+                    <line x1="4" y1="60" x2="116" y2="60" stroke="#9cc9ff" stroke-width="1.5" stroke-linecap="round" class="hud-spike hud-spike--h" />
+                    <line x1="24" y1="24" x2="96" y2="96" stroke="#9cc9ff" stroke-width="0.75" opacity="0.6" stroke-linecap="round" />
+                    <line x1="24" y1="96" x2="96" y2="24" stroke="#9cc9ff" stroke-width="0.75" opacity="0.6" stroke-linecap="round" />
+                    <circle cx="60" cy="60" r="16" fill="url(#starCoreGlow)" />
+                    <circle cx="60" cy="60" r="5" fill="#ffffff" />
+                  </svg>
+                  <span class="hud-astro-frame__caption">POINT SOURCE PHOTOMETRY</span>
+                </div>
+
+                <!-- Galaxy Spiral SVG with Orbiting Arms -->
+                <div class="hud-astro-icon hud-astro-icon--galaxy" id="astroIconGalaxy">
+                  <svg viewBox="0 0 120 120" class="hud-svg-galaxy" fill="none">
+                    <defs>
+                      <radialGradient id="galaxyCoreGlow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+                        <stop offset="30%" stop-color="#d4b8ff" stop-opacity="0.8" />
+                        <stop offset="70%" stop-color="#b58cff" stop-opacity="0.35" />
+                        <stop offset="100%" stop-color="#b58cff" stop-opacity="0" />
+                      </radialGradient>
+                    </defs>
+                    <g class="hud-galaxy-spin" id="galaxyArmGroup">
+                      <ellipse cx="60" cy="60" rx="46" ry="22" stroke="#b58cff" stroke-width="1.5" stroke-dasharray="12 8 4 6" opacity="0.45" transform="rotate(-30 60 60)" />
+                      <ellipse cx="60" cy="60" rx="36" ry="16" stroke="#d4b8ff" stroke-width="1.75" stroke-dasharray="8 6" opacity="0.75" transform="rotate(-30 60 60)" />
+                      <ellipse cx="60" cy="60" rx="24" ry="10" stroke="#ffffff" stroke-width="1.25" opacity="0.9" transform="rotate(-30 60 60)" />
+                      <path d="M60 60 C80 50, 95 35, 104 22 C90 35, 75 42, 60 60 Z" fill="#b58cff" opacity="0.3" />
+                      <path d="M60 60 C40 70, 25 85, 16 98 C30 85, 45 78, 60 60 Z" fill="#b58cff" opacity="0.3" />
+                    </g>
+                    <circle cx="60" cy="60" r="20" fill="url(#galaxyCoreGlow)" />
+                    <circle cx="60" cy="60" r="4" fill="#ffffff" />
+                  </svg>
+                  <span class="hud-astro-frame__caption">EXTENDED DIFFUSE SOURCE</span>
+                </div>
+              </div>
+
+              <!-- Main Classification Label & Gauge -->
+              <div class="hud-verdict">
+                <div class="hud-verdict__meta">PRIMARY DETERMINATION</div>
+                <div class="hud-verdict__label" id="resultClassLabel">STAR</div>
+
+                <div class="hud-gauge-wrap">
+                  <div class="hud-circular-gauge">
+                    <svg viewBox="0 0 84 84" class="hud-circular-gauge__svg">
+                      <circle cx="42" cy="42" r="36" class="hud-circular-gauge__track" />
+                      <circle cx="42" cy="42" r="36" class="hud-circular-gauge__bar" id="gaugeCircleBar" />
+                    </svg>
+                    <div class="hud-circular-gauge__inner">
+                      <span class="hud-circular-gauge__num" id="confidenceValue">0.0</span>
+                      <span class="hud-circular-gauge__pct">%</span>
+                    </div>
+                  </div>
+                  <div class="hud-verdict__detail">
+                    <span class="hud-verdict__stat-title">CONFIDENCE LEVEL</span>
+                    <span class="hud-verdict__stat-sub" id="confidenceSub">HIGH RELIABILITY INFERENCE</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Star vs Galaxy Probability Distribution Bar -->
+            <div class="hud-prob-strip">
+              <div class="hud-prob-strip__labels">
+                <span class="hud-prob-item hud-prob-item--star">
+                  <span class="hud-prob-dot hud-prob-dot--star"></span>
+                  STAR: <strong id="probStarVal">50.0%</strong>
+                </span>
+                <span class="hud-prob-item hud-prob-item--galaxy">
+                  <span class="hud-prob-dot hud-prob-dot--galaxy"></span>
+                  GALAXY: <strong id="probGalaxyVal">50.0%</strong>
+                </span>
+              </div>
+              <div class="hud-prob-bar">
+                <div class="hud-prob-bar__star" id="probBarStar" style="width: 50%;"></div>
+                <div class="hud-prob-bar__galaxy" id="probBarGalaxy" style="width: 50%;"></div>
+              </div>
+            </div>
+
+            <!-- Explainability: Why This Result -->
+            <div class="hud-explain">
+              <div class="hud-explain__heading">
+                <svg class="hud-icon hud-icon--sm hud-icon--amber" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="8" cy="8" r="7" />
+                  <line x1="8" y1="5" x2="8" y2="8" />
+                  <circle cx="8" cy="11" r="0.75" fill="currentColor" />
+                </svg>
+                <span>WHY THIS RESULT (TOP CONTRIBUTING SIGNALS)</span>
+              </div>
+              <div class="hud-feature-list" id="featureList">
+                <!-- Dynamically populated feature bars -->
+              </div>
+            </div>
+
+            <!-- Data Quality & Observational Badges -->
+            <div class="hud-badges" id="badgesContainer">
+              <div class="hud-badge hud-badge--leakage" id="badgeLeakage">
+                <svg class="hud-icon hud-icon--xs" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M6 1v10M1 6h10" />
+                </svg>
+                LEAKAGE FIELDS IGNORED: objid, specobjid, plate, mjd, fiberid
+              </div>
+              <!-- Conditional badges injected dynamically -->
+            </div>
+          </div>
+
+          <!-- STATE 4: Signal Lost Error Display -->
+          <div class="hud-state-view hud-state-view--error hud-hidden" id="viewError">
+            <div class="hud-error-symbol">
+              <svg viewBox="0 0 64 64" fill="none" stroke="#ff5e62" stroke-width="2">
+                <polygon points="32 6 60 56 4 56" />
+                <line x1="32" y1="22" x2="32" y2="38" />
+                <circle cx="32" cy="46" r="2" fill="#ff5e62" />
+              </svg>
+            </div>
+            <div class="hud-error-title">SIGNAL LOST</div>
+            <p class="hud-error-desc" id="errorMsgText">Inference server unreachable at endpoint http://localhost:8000/predict.</p>
+            <button type="button" class="hud-btn hud-btn--primary hud-btn--error-retry" id="btnRetry">
+              <svg class="hud-icon hud-icon--sm" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 8A6 6 0 118 2a6 6 0 014.2 1.8L14 5M14 2v3h-3" />
+              </svg>
+              <span>RETRY TRANSMISSION</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- BELOW: Model Performance Metrics & Confusion Matrix Strip -->
+    <section class="hud-metrics-strip" id="metricsStrip">
+      <div class="hud-metrics-strip__inner hud-card">
+        <div class="hud-card__corner hud-card__corner--tl"></div>
+        <div class="hud-card__corner hud-card__corner--tr"></div>
+        <div class="hud-card__corner hud-card__corner--bl"></div>
+        <div class="hud-card__corner hud-card__corner--br"></div>
+
+        <div class="hud-strip-grid">
+          <!-- 4 Metric Cards with Count-up -->
+          <div class="hud-metric-cards">
+            <div class="hud-metric-card" id="cardAccuracy">
+              <div class="hud-metric-card__header">
+                <span class="hud-metric-card__label">OVERALL ACCURACY</span>
+                <span class="hud-metric-card__code">M-01</span>
+              </div>
+              <div class="hud-metric-card__value">
+                <span class="hud-counter" id="metricAccuracy" data-target="99.48">0.00</span><span class="hud-metric-card__pct">%</span>
+              </div>
+              <div class="hud-metric-card__note">Test partition benchmark</div>
+            </div>
+
+            <div class="hud-metric-card" id="cardPrecision">
+              <div class="hud-metric-card__header">
+                <span class="hud-metric-card__label">PRECISION</span>
+                <span class="hud-metric-card__code">M-02</span>
+              </div>
+              <div class="hud-metric-card__value">
+                <span class="hud-counter" id="metricPrecision" data-target="99.48">0.00</span><span class="hud-metric-card__pct">%</span>
+              </div>
+              <div class="hud-metric-card__note">Weighted macro average</div>
+            </div>
+
+            <div class="hud-metric-card" id="cardRecall">
+              <div class="hud-metric-card__header">
+                <span class="hud-metric-card__label">RECALL</span>
+                <span class="hud-metric-card__code">M-03</span>
+              </div>
+              <div class="hud-metric-card__value">
+                <span class="hud-counter" id="metricRecall" data-target="99.48">0.00</span><span class="hud-metric-card__pct">%</span>
+              </div>
+              <div class="hud-metric-card__note">Balanced across classes</div>
+            </div>
+
+            <div class="hud-metric-card" id="cardF1">
+              <div class="hud-metric-card__header">
+                <span class="hud-metric-card__label">F1 SCORE</span>
+                <span class="hud-metric-card__code">M-04</span>
+              </div>
+              <div class="hud-metric-card__value">
+                <span class="hud-counter" id="metricF1" data-target="99.48">0.00</span><span class="hud-metric-card__pct">%</span>
+              </div>
+              <div class="hud-metric-card__note">Harmonic mean precision-recall</div>
+            </div>
+          </div>
+
+          <!-- Confusion Matrix Visualization -->
+          <div class="hud-cm-wrapper" id="cmWrapper">
+            <div class="hud-cm-header">
+              <span class="hud-cm-header__title">EVALUATION CONFUSION MATRIX</span>
+              <span class="hud-cm-header__tag">N = 17,850 VERIFIED SPECTRA</span>
+            </div>
+            <div class="hud-cm-content">
+              <div class="hud-cm-axis-y">TRUE CLASS &rarr;</div>
+              <div class="hud-cm-grid">
+                <div class="hud-cm-label-top hud-cm-label-top--galaxy">PRED GALAXY</div>
+                <div class="hud-cm-label-top hud-cm-label-top--star">PRED STAR</div>
+
+                <div class="hud-cm-label-left">GALAXY</div>
+                <div class="hud-cm-cell hud-cm-cell--tp hud-cm-cell-anim" id="cmCellTP">
+                  <div class="hud-cm-cell__type">TRUE GALAXY</div>
+                  <div class="hud-cm-cell__count">10,383</div>
+                  <div class="hud-cm-cell__rate">99.4%</div>
+                </div>
+                <div class="hud-cm-cell hud-cm-cell--fn hud-cm-cell-anim" id="cmCellFN">
+                  <div class="hud-cm-cell__type">FALSE STAR</div>
+                  <div class="hud-cm-cell__count">60</div>
+                  <div class="hud-cm-cell__rate">0.6%</div>
+                </div>
+
+                <div class="hud-cm-label-left">STAR</div>
+                <div class="hud-cm-cell hud-cm-cell--fp hud-cm-cell-anim" id="cmCellFP">
+                  <div class="hud-cm-cell__type">FALSE GALAXY</div>
+                  <div class="hud-cm-cell__count">33</div>
+                  <div class="hud-cm-cell__rate">0.4%</div>
+                </div>
+                <div class="hud-cm-cell hud-cm-cell--tn hud-cm-cell-anim" id="cmCellTN">
+                  <div class="hud-cm-cell__type">TRUE STAR</div>
+                  <div class="hud-cm-cell__count">7,374</div>
+                  <div class="hud-cm-cell__rate">99.6%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="hud-footer">
+      <div class="hud-footer__line">
+        <span class="hud-footer__dash"></span>
+        <span class="hud-footer__text">SAME SKY. DIFFERENT STORIES.</span>
+        <span class="hud-footer__dash"></span>
+      </div>
+      <div class="hud-footer__sub">ASTROMANTHAN &bull; SDSS DR16 PHOTOMETRIC BENCHMARK &bull; STRICT ZERO LEAKAGE</div>
+    </footer>
+  </div>
+
+  <!-- External Libraries (GSAP 3 + ScrollTrigger via cdnjs) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Application Script -->
+  <script src="classifier.js"></script>
+</body>
+</html>

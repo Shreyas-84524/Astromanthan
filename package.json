@@ -1,0 +1,19 @@
+{
+  "name": "astromanthan-classifier",
+  "version": "1.0.0",
+  "description": "DEEP SKY DIVIDE - Star / Galaxy Photometric Classifier",
+  "scripts": {
+    "dev": "npx -y serve -l 3000 .",
+    "server": "python3 server.py",
+    "start": "npx -y serve -l 3000 ."
+  },
+  "keywords": [
+    "astronomy",
+    "sdss",
+    "machine-learning",
+    "gsap",
+    "csv-batch"
+  ],
+  "author": "",
+  "license": "ISC"
+}
