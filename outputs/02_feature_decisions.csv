@@ -1,0 +1,59 @@
+dataset,column,category,decision,reason,missing,non_numeric,unique,dominant_fraction,minimum,maximum,sentinel_minus9999,value_minus1,value_99,is_constant,is_near_constant
+29,Object_ID,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4707,54,26,0.952183908045977,-1000000000000.0,1.24e+18,0,0,0,False,True
+29,Spectroscopic_Object_ID,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4330,60,810,0.0144527736131934,-1000000000000.0,1.41e+19,0,0,0,False,False
+29,Right_Ascension_deg,POSITION,drop,Exclude predictor; use for duplicate grouping and spatial robustness,3196,55,96798,0.0001099450274862,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Declination_deg,POSITION,drop,Exclude predictor; use for duplicate grouping and spatial robustness,5024,57,94970,0.000119940029985,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,U_Band_Magnitude,PHOTOMETRIC,keep,Keep after fixed validity checks,5191,54,76629,0.0001699150424787,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,G_Band_Magnitude,PHOTOMETRIC,keep,Keep after fixed validity checks,4043,57,82918,0.0001399300349825,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,R_Band_Magnitude,PHOTOMETRIC,keep,Keep after fixed validity checks,4799,63,84177,0.0001399300349825,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,I_Band_Magnitude,PHOTOMETRIC,keep,Keep after fixed validity checks,3869,57,85540,0.0001499250374812,-99999999.0,1000000000000.0,1,0,0,False,False
+29,Z_Band_Magnitude,PHOTOMETRIC,keep,Keep after fixed validity checks,3336,55,86619,0.0001299350324837,-1000000000000.0,1000000000000.0,3,0,0,False,False
+29,Imaging_Run_Number,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4473,63,123,0.0902348825587206,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Image_Rerun_Number,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4333,52,21,0.955992003998001,-1000000000000.0,1000000000000.0,0,0,0,False,True
+29,Camera_Column,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4100,60,24,0.1836481759120439,-99999999.0,1000000000000.0,0,0,0,False,False
+29,Field_Number,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4192,56,823,0.0037381309345327,-1000000000000.0,1000000000000.0,0,0,262,False,False
+29,Spectroscopic_Plate_Number,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4674,61,1487,0.0049875062468765,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Modified_Julian_Date,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,5075,60,930,0.0124437781109445,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Fiber_ID,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,4868,60,1019,0.0018090954522738,-1000000000000.0,1000000000000.0,0,0,134,False,False
+29,Petrosian_Radius_U,STRUCTURAL,keep,Keep after fixed validity checks,2822,56,94837,0.00015992003998,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Radius_G,STRUCTURAL,keep,Keep after fixed validity checks,5290,56,93142,0.0001899050474762,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Radius_I,STRUCTURAL,keep,Keep after fixed validity checks,4717,56,93698,0.0001099450274862,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Radius_R,STRUCTURAL,keep,Keep after fixed validity checks,3118,58,95217,0.0001799100449775,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Radius_Z,STRUCTURAL,keep,Keep after fixed validity checks,3194,65,95240,0.0001399300349825,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Flux_U,PHOTOMETRIC,keep,Keep after fixed validity checks,3874,63,95151,0.00015992003998,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Flux_G,PHOTOMETRIC,keep,Keep after fixed validity checks,3331,57,96036,0.000119940029985,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Flux_I,PHOTOMETRIC,keep,Keep after fixed validity checks,3112,61,96253,0.0001499250374812,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Flux_R,PHOTOMETRIC,keep,Keep after fixed validity checks,3185,61,96175,0.00015992003998,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_Flux_Z,PHOTOMETRIC,keep,Keep after fixed validity checks,4201,61,95319,0.0001299350324837,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Petrosian_50_Percent_Radius_U,STRUCTURAL,keep,Keep after fixed validity checks,3220,58,96115,0.0005797101449275,-1000000000000.0,99999999.0,58,0,0,False,False
+29,Petrosian_50_Percent_Radius_G,STRUCTURAL,keep,Keep after fixed validity checks,3626,61,95700,0.0001399300349825,-1000000000000.0,1000000000000.0,10,0,0,False,False
+29,Petrosian_50_Percent_Radius_I,STRUCTURAL,keep,Keep after fixed validity checks,3312,55,95945,0.0003498250874562,-1000000000000.0,1000000000000.0,35,0,0,False,False
+29,Petrosian_50_Percent_Radius_R,STRUCTURAL,keep,Keep after fixed validity checks,2707,57,96581,0.0001399300349825,-1000000000000.0,1000000000000.0,9,0,0,False,False
+29,Petrosian_50_Percent_Radius_Z,STRUCTURAL,keep,Keep after fixed validity checks,4448,61,94754,0.00103948025987,-99999999.0,1000000000000.0,104,0,0,False,False
+29,PSF_Magnitude_U,PHOTOMETRIC,keep,Keep after fixed validity checks,3441,59,86662,0.0001499250374812,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,PSF_Magnitude_R,PHOTOMETRIC,keep,Keep after fixed validity checks,2824,60,87109,0.0001299350324837,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,PSF_Magnitude_G,PHOTOMETRIC,keep,Keep after fixed validity checks,2627,54,87231,0.0001299350324837,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,PSF_Magnitude_I,PHOTOMETRIC,keep,Keep after fixed validity checks,3739,53,86480,0.0001399300349825,-1000000000000.0,1000000000000.0,1,0,0,False,False
+29,PSF_Magnitude_Z,PHOTOMETRIC,keep,Keep after fixed validity checks,4940,64,85379,0.00015992003998,-1000000000000.0,1000000000000.0,3,0,0,False,False
+29,Exponential_Axis_Ratio_U,STRUCTURAL,keep,Keep after fixed validity checks,5179,58,90640,0.0078060969515242,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Exponential_Axis_Ratio_G,STRUCTURAL,keep,Keep after fixed validity checks,4764,58,89777,0.0041979010494752,-1000000000000.0,99999999.0,0,0,0,False,False
+29,Exponential_Axis_Ratio_R,STRUCTURAL,keep,Keep after fixed validity checks,3781,59,90113,0.0065567216391804,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Exponential_Axis_Ratio_I,STRUCTURAL,keep,Keep after fixed validity checks,3834,55,90467,0.0073463268365817,-1000000000000.0,1000000000000.0,1,0,0,False,False
+29,Exponential_Axis_Ratio_Z,STRUCTURAL,keep,Keep after fixed validity checks,2683,54,92615,0.0109345327336331,-1000000000000.0,1000000000000.0,3,0,0,False,False
+29,Redshift,SPECTROSCOPIC/LABEL-DERIVED,drop,Exclude: unavailable/derived at photometric inference; redshift diagnostic only,2987,62,87261,0.0020389805097451,-1000000000000.0,1000000000000.0,0,0,0,False,False
+29,Object_Class,TARGET,target,Target only,0,100050,3,0.5233483258370815,,,0,0,0,False,False
+29,Random_Record_Code,OTHER,drop,Exclude: no documented astronomical measurement meaning,5011,95033,90202,8.995502248875562e-05,-986519.1319296648,-183765.2485694576,0,0,0,False,False
+29,Data_Verification_Status,OTHER,drop,Exclude: no documented astronomical measurement meaning,5011,95031,16,0.1595102448775612,-831012.2515401558,529772.7756352113,0,0,0,False,False
+29,Irrelevant_Observer_Note,OTHER,drop,Exclude: no documented astronomical measurement meaning,20695,79352,12,0.1604497751124437,-734145.3668002174,751288.1789540867,0,0,0,False,False
+24,ID,IDENTIFIER,drop,Exclude: identifier or observation bookkeeping; audit identity precision,0,0,78052,0.000170001700017,1.23764594290439e+18,1.2376805313563863e+18,0,0,0,False,False
+24,Right_Ascension,POSITION,drop,Exclude predictor; use for duplicate grouping and spatial robustness,0,0,99998,2.000020000200002e-05,0.0055278279239701,359.999809770956,0,0,0,False,False
+24,Declination,POSITION,drop,Exclude predictor; use for duplicate grouping and spatial robustness,0,0,99998,2.000020000200002e-05,-18.7853280771825,83.00051858898,0,0,0,False,False
+24,U_Magnitude,PHOTOMETRIC,keep,Keep in five-band comparison,0,0,93747,0.000770007700077,10.99623,32.78139,0,0,0,False,False
+24,G_Magnitude,PHOTOMETRIC,keep,Keep in five-band comparison,0,0,92650,9.000090000900009e-05,10.4982,31.60224,0,0,0,False,False
+24,R_Magnitude,PHOTOMETRIC,keep,Keep in five-band comparison,0,0,91900,0.000210002100021,9.82207,29.57186,0,0,0,False,False
+24,I_Magnitude,PHOTOMETRIC,keep,Keep in five-band comparison,0,0,92018,6.000060000600006e-05,9.469903,32.14147,0,0,0,False,False
+24,Z_Magnitude,PHOTOMETRIC,keep,Keep in five-band comparison,0,0,92006,0.000580005800058,9.612333,29.38374,0,0,0,False,False
+24,Redshift,SPECTROSCOPIC/LABEL-DERIVED,drop,Exclude: unavailable/derived at photometric inference; redshift diagnostic only,0,0,99294,0.004120041200412,-0.009970667,7.011245,0,0,0,False,False
+24,Spectral_Type,SPECTROSCOPIC/LABEL-DERIVED,drop,Exclude: unavailable/derived at photometric inference; redshift diagnostic only,0,99999,4,0.4714847148471485,,,0,0,0,False,False
+24,Galaxy_Population,SPECTROSCOPIC/LABEL-DERIVED,drop,Exclude: unavailable/derived at photometric inference; redshift diagnostic only,0,99999,2,0.5260952609526095,,,0,0,0,False,False
+24,Class,TARGET,target,Target only,0,99999,3,0.5944559445594456,,,0,0,0,False,False

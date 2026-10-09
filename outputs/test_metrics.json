@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.9948,
+  "balanced_accuracy": 0.9949,
+  "precision": 0.9948,
+  "recall": 0.9948,
+  "f1": 0.9948,
+  "f1_macro": 0.9946,
+  "roc_auc": 0.9978,
+  "pr_auc": 0.993398013977966,
+  "brier": 0.00479116953057869,
+  "GALAXY_precision": 0.996831797235023,
+  "GALAXY_recall": 0.9942545245619075,
+  "GALAXY_f1-score": 0.9955414928807709,
+  "STAR_precision": 0.9919289749798225,
+  "STAR_recall": 0.9955447549615228,
+  "STAR_f1-score": 0.9937335759045887
+}

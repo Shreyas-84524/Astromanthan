@@ -1,0 +1,38 @@
+{
+  "dataset24_nonoverlap": {
+    "accuracy": 0.4783,
+    "balanced_accuracy": 0.6127,
+    "precision": 0.7485,
+    "recall": 0.4783,
+    "f1": 0.4842,
+    "f1_macro": 0.478,
+    "roc_auc": 0.7589,
+    "pr_auc": 0.6607330408122676,
+    "brier": 0.3975074362293251,
+    "GALAXY_precision": 0.897390204644746,
+    "GALAXY_recall": 0.3376300365508143,
+    "GALAXY_f1-score": 0.4906573633177754,
+    "STAR_precision": 0.31534471966377536,
+    "STAR_recall": 0.8876722673211251,
+    "STAR_f1-score": 0.46536792966365903
+  },
+  "dataset29_holdout_shared_bands": {
+    "accuracy": 0.9691,
+    "balanced_accuracy": 0.9701,
+    "precision": 0.9695,
+    "recall": 0.9691,
+    "f1": 0.9692,
+    "f1_macro": 0.9683,
+    "roc_auc": 0.9931,
+    "pr_auc": 0.9881187391137747,
+    "brier": 0.024994375077196332,
+    "GALAXY_precision": 0.9823483518626878,
+    "GALAXY_recall": 0.9645695681317629,
+    "GALAXY_f1-score": 0.9733777842199353,
+    "STAR_precision": 0.9512901527119536,
+    "STAR_recall": 0.9755636560010801,
+    "STAR_f1-score": 0.9632740118642938
+  },
+  "rows": 62128,
+  "interpretation": "different five-band model; cannot evaluate structural champion on Dataset24"
+}

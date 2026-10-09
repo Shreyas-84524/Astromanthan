@@ -1,0 +1,83 @@
+{
+  "dataset": "24",
+  "rows": 99999,
+  "columns": 12,
+  "sha256": "46633be9a131305fb0e86ebd27e4f2d2efa892b090e012a007993d16138704e9",
+  "memory_mib": 67.34072971343994,
+  "class_counts": {
+    "GALAXY": 59445,
+    "STAR": 21593,
+    "QSO": 18961
+  },
+  "full_row_duplicates": 0,
+  "identifier_duplicates": {
+    "ID": 21947
+  },
+  "identifier_examples": {
+    "ID": {
+      "1237659326031000064": 17,
+      "1237663462608404736": 13,
+      "1237666301631201536": 12,
+      "1237666301627465984": 11,
+      "1237666301630939136": 11
+    }
+  },
+  "dtypes": {
+    "ID": "str",
+    "Right_Ascension": "str",
+    "Declination": "str",
+    "U_Magnitude": "str",
+    "G_Magnitude": "str",
+    "R_Magnitude": "str",
+    "I_Magnitude": "str",
+    "Z_Magnitude": "str",
+    "Redshift": "str",
+    "Spectral_Type": "str",
+    "Galaxy_Population": "str",
+    "Class": "str"
+  },
+  "head": [
+    {
+      "ID": "1237660961327743232",
+      "Right_Ascension": "135.6891066036",
+      "Declination": "32.4946318397087",
+      "U_Magnitude": "23.87882",
+      "G_Magnitude": "22.2753",
+      "R_Magnitude": "20.39501",
+      "I_Magnitude": "19.16573",
+      "Z_Magnitude": "18.79371",
+      "Redshift": "0.6347936",
+      "Spectral_Type": "M",
+      "Galaxy_Population": "Red_Sequence",
+      "Class": "GALAXY"
+    },
+    {
+      "ID": "1237664879951151104",
+      "Right_Ascension": "144.826100550256",
+      "Declination": "31.2741848944939",
+      "U_Magnitude": "24.77759",
+      "G_Magnitude": "22.83188",
+      "R_Magnitude": "22.58444",
+      "I_Magnitude": "21.16812",
+      "Z_Magnitude": "21.61427",
+      "Redshift": "0.779136",
+      "Spectral_Type": "A/F",
+      "Galaxy_Population": "Blue_Cloud",
+      "Class": "GALAXY"
+    },
+    {
+      "ID": "1237660961330430208",
+      "Right_Ascension": "142.188789562506",
+      "Declination": "35.5824441819976",
+      "U_Magnitude": "25.26307",
+      "G_Magnitude": "22.66389",
+      "R_Magnitude": "20.60976",
+      "I_Magnitude": "19.34857",
+      "Z_Magnitude": "18.94827",
+      "Redshift": "0.6441945",
+      "Spectral_Type": "M",
+      "Galaxy_Population": "Red_Sequence",
+      "Class": "GALAXY"
+    }
+  ]
+}

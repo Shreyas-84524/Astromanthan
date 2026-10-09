@@ -1,0 +1,8 @@
+{
+  "primary_rows": 89251,
+  "development_rows": 71401,
+  "test_rows": 17850,
+  "secondary_rows": 62128,
+  "conflicting_groups": 1909,
+  "duplicate_primary_rows_removed": 197
+}

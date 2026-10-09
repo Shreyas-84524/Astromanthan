@@ -1,0 +1,5 @@
+[0.0 min] Starting Deep Sky Divide; sequential jobs, four computation threads, seed 42
+[0.1 min] Phase 1 audit 29: shape=(100050, 46), memory=244.8 MiB, labels={'GALAXY': 52361, 'STAR': 37250, 'QSO': 10439}
+[0.1 min] Phase 1 audit 24: shape=(99999, 12), memory=67.3 MiB, labels={'GALAXY': 59445, 'STAR': 21593, 'QSO': 18961}
+[0.1 min] Phase 1 identity linkage: {'position_pairs': 1912, 'photometric_links': 18097, 'shared_object_groups': 1819, 'dataset24_overlapping_rows': 2734, 'unidentifiable_rows': 51, 'total_groups': 176021}
+[0.4 min] Phase 1 complete: {'primary_rows': 89251, 'development_rows': 71401, 'test_rows': 17850, 'secondary_rows': 62128, 'conflicting_groups': 1909, 'duplicate_primary_rows_removed': 197}; sealed final test; exact object-group intersections=0

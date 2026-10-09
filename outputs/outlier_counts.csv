@@ -1,0 +1,5 @@
+method,label,rows,flagged
+robust_extreme_flag,GALAXY,8354,1701
+robust_extreme_flag,STAR,5927,1053
+isolation_anomaly_flag,GALAXY,8354,184
+isolation_anomaly_flag,STAR,5927,65

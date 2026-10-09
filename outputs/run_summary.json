@@ -1,0 +1,28 @@
+{
+  "elapsed_seconds": 395.23400000005495,
+  "completed": true,
+  "winner": "HistGB_deeper",
+  "final_test": {
+    "accuracy": 0.9948,
+    "balanced_accuracy": 0.9949,
+    "precision": 0.9948,
+    "recall": 0.9948,
+    "f1": 0.9948,
+    "f1_macro": 0.9946,
+    "roc_auc": 0.9978,
+    "pr_auc": 0.993398013977966,
+    "brier": 0.00479116953057869,
+    "GALAXY_precision": 0.996831797235023,
+    "GALAXY_recall": 0.9942545245619075,
+    "GALAXY_f1-score": 0.9955414928807709,
+    "STAR_precision": 0.9919289749798225,
+    "STAR_recall": 0.9955447549615228,
+    "STAR_f1-score": 0.9937335759045887
+  },
+  "reload_prediction_match": true,
+  "test_used_for_selection": false,
+  "input_hashes": [
+    "b091630695ad610f818a98c515063f2492f64718409960597040a31231e44da0",
+    "46633be9a131305fb0e86ebd27e4f2d2efa892b090e012a007993d16138704e9"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "group_overlap": 0,
+  "unique_primary_groups": true,
+  "prediction_rows": 17850,
+  "misclassified": 93,
+  "metrics_recomputed": true,
+  "fresh_process_reload_matches": true,
+  "model_size_bytes": 850994,
+  "figure_count": 6
+}
