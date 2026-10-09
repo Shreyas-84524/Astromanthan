@@ -1,0 +1,12 @@
+# Local Python environments and generated caches
+.venvs/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Machine-local scratch files and secrets
+scratch/
+.env
+.env.*
+!.env.example
