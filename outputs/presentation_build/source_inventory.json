@@ -1,0 +1,2521 @@
+{
+  "width_in": 20.0,
+  "height_in": 11.25,
+  "source": "C:\\Users\\Kryo\\Downloads\\Deep_Sky_Divide_ASTROMANTHAN_v4.pptx",
+  "slides": [
+    {
+      "shapes": [
+        {
+          "imageRel": null,
+          "name": "",
+          "box": null,
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "1",
+          "kind": "nvGrpSpPr",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 2",
+          "box": {
+            "x": 5.833,
+            "w": 6.0,
+            "y": 6.707,
+            "h": 3.506
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "3588",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "    Team Name : Krittika\nShreyasShigwan\nSiddhantSurve\nMahesh Dubey\nPriyanka Jain",
+          "paragraphs": [
+            "    Team Name : Krittika",
+            "ShreyasShigwan",
+            "SiddhantSurve",
+            "Mahesh Dubey",
+            "Priyanka Jain"
+          ],
+          "id": "2",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 3",
+          "box": {
+            "x": 0.835,
+            "w": 5.518,
+            "y": 5.193,
+            "h": 0.842
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "4527",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Problem Statement:",
+          "paragraphs": [
+            "Problem Statement:"
+          ],
+          "id": "3",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Group 4",
+          "box": {
+            "x": 6.408,
+            "w": 13.258,
+            "y": 4.936,
+            "h": 1.61
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "3200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"Times New Roman MT\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "\nDEEP SKY DIVIDE: The Star–Galaxy Classification Challenge",
+          "paragraphs": [
+            "",
+            "DEEP SKY DIVIDE: The Star–Galaxy Classification Challenge"
+          ],
+          "id": "4",
+          "kind": "grpSp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 9",
+          "box": {
+            "x": 15.078,
+            "w": 3.805,
+            "y": 10.073,
+            "h": 0.422
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "2236",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2026",
+          "paragraphs": [
+            "ASTROMANTHAN 2026"
+          ],
+          "id": "9",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": "rId2",
+          "name": "Group 10",
+          "box": {
+            "x": -6.217,
+            "w": 32.434,
+            "y": -0.678,
+            "h": 5.35
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "7937",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"8E2DE2\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "2817",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "2817",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "7712",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:schemeClr val=\"bg1\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": null,
+              "size": "2476",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2.0\nASTRONOMY CLUB of\nThakur College of Engineering & Technology (AC-TCET) \nASTROMANTHAN 2.0\n\nJaha ML mile Antariksh se",
+          "paragraphs": [
+            "ASTROMANTHAN 2.0",
+            "ASTRONOMY CLUB of",
+            "Thakur College of Engineering & Technology (AC-TCET) ",
+            "ASTROMANTHAN 2.0",
+            "",
+            "Jaha ML mile Antariksh se"
+          ],
+          "id": "10",
+          "kind": "grpSp",
+          "placeholder": null
+        }
+      ],
+      "number": 1,
+      "relationships": [
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+          "id": "rId1",
+          "target": "../slideLayouts/slideLayout7.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId2",
+          "target": "../media/image1.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId3",
+          "target": "../media/image2.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId4",
+          "target": "../media/image3.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId5",
+          "target": "../media/image4.png"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "shapes": [
+        {
+          "imageRel": null,
+          "name": "",
+          "box": null,
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "1",
+          "kind": "nvGrpSpPr",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Group 2",
+          "box": {
+            "x": 0.0,
+            "w": 20.0,
+            "y": 0.0,
+            "h": 1.885
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "5763",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "\nExplain more about problem statement",
+          "paragraphs": [
+            "",
+            "Explain more about problem statement"
+          ],
+          "id": "2",
+          "kind": "grpSp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 7",
+          "box": {
+            "x": 15.078,
+            "w": 3.805,
+            "y": 10.073,
+            "h": 0.422
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "2236",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2026",
+          "paragraphs": [
+            "ASTROMANTHAN 2026"
+          ],
+          "id": "7",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": "rId2",
+          "name": "Freeform 8",
+          "box": {
+            "x": 18.875,
+            "w": 0.769,
+            "y": 0.222,
+            "h": 0.77
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "8",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Chart 9",
+          "box": {
+            "x": 11.7,
+            "w": 7.6,
+            "y": 2.1,
+            "h": 4.6
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "10",
+          "kind": "graphicFrame",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 10",
+          "box": {
+            "x": 11.7,
+            "w": 3.75,
+            "y": 6.95,
+            "h": 1.75
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "11",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 11",
+          "box": {
+            "x": 11.75,
+            "w": 3.65,
+            "y": 7.0,
+            "h": 1.65
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "STAR\npoint source: profile matches the PSF",
+          "paragraphs": [
+            "STAR",
+            "point source: profile matches the PSF"
+          ],
+          "id": "12",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 12",
+          "box": {
+            "x": 15.55,
+            "w": 3.75,
+            "y": 6.95,
+            "h": 1.75
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "13",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 13",
+          "box": {
+            "x": 15.6,
+            "w": 3.65,
+            "y": 7.0,
+            "h": 1.65
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "GALAXY\nextended: broader brightness profile",
+          "paragraphs": [
+            "GALAXY",
+            "extended: broader brightness profile"
+          ],
+          "id": "14",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 14",
+          "box": {
+            "x": 0.7,
+            "w": 18.6,
+            "y": 8.95,
+            "h": 0.85
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "15",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 15",
+          "box": {
+            "x": 0.8,
+            "w": 18.4,
+            "y": 8.95,
+            "h": 0.85
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Success: held-out accuracy, macro-F1 and per-class errors, with no leakage.",
+          "paragraphs": [
+            "Success: held-out accuracy, macro-F1 and per-class errors, with no leakage."
+          ],
+          "id": "16",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 16",
+          "box": {
+            "x": 0.7,
+            "w": 10.6,
+            "y": 2.2,
+            "h": 6.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "What we understood\nTask: label each object STAR or GALAXY from brightness in 5 bands plus shape. QSOs are in the data; we exclude them from the main model.\nWhy it matters: stars are point sources, galaxies are extended. Catalogues need clean labels at survey scale; manual labelling is impossible.\nWhy it is hard: faint galaxies look point-like, poor seeing blurs stars, and measurements are noisy.\nTraps (measured): Dataset_29 has junk text and ±1e12 sentinels; in Dataset_24 redshift reveals the class.\nWhat it really tests: cleaning, relevant features, leakage control and generalisation, not accuracy alone.\nSecondary check: a 5-band colour model trained on Dataset_29 fell from macro-F1 0.968 to 0.478 on 62,128 Dataset_24 objects: cross-survey transfer is a known limit.",
+          "paragraphs": [
+            "What we understood",
+            "Task: label each object STAR or GALAXY from brightness in 5 bands plus shape. QSOs are in the data; we exclude them from the main model.",
+            "Why it matters: stars are point sources, galaxies are extended. Catalogues need clean labels at survey scale; manual labelling is impossible.",
+            "Why it is hard: faint galaxies look point-like, poor seeing blurs stars, and measurements are noisy.",
+            "Traps (measured): Dataset_29 has junk text and ±1e12 sentinels; in Dataset_24 redshift reveals the class.",
+            "What it really tests: cleaning, relevant features, leakage control and generalisation, not accuracy alone.",
+            "Secondary check: a 5-band colour model trained on Dataset_29 fell from macro-F1 0.968 to 0.478 on 62,128 Dataset_24 objects: cross-survey transfer is a known limit."
+          ],
+          "id": "17",
+          "kind": "sp",
+          "placeholder": null
+        }
+      ],
+      "number": 2,
+      "relationships": [
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+          "id": "rId1",
+          "target": "../slideLayouts/slideLayout7.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId2",
+          "target": "../media/image3.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+          "id": "rId3",
+          "target": "../charts/chart1.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+          "id": "rId4",
+          "target": "../notesSlides/notesSlide1.xml"
+        }
+      ],
+      "notes": "SAY: This is our reading of the problem statement. Stars are point sources; galaxies have extent, but faint galaxies blur into points. The statement warns about unnecessary attributes, confusing measurements, unusual observations, bias and leakage, so we treat this as a data-quality and honesty problem. Our audit found junk text and sentinels in Dataset_29 and a label-revealing column (redshift) in both files. Dataset_24 was NOT used as training data; it was a secondary transfer check, and the drop from 0.968 to 0.478 macro-F1 shows we do not claim cross-survey generalisation.\nKEY CLAIM: the raw data cannot be modelled as-is.\nEVIDENCE: data audit numbers (measured) and the transfer check."
+    },
+    {
+      "shapes": [
+        {
+          "imageRel": null,
+          "name": "",
+          "box": null,
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "1",
+          "kind": "nvGrpSpPr",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Group 2",
+          "box": {
+            "x": 0.0,
+            "w": 20.0,
+            "y": 0.0,
+            "h": 1.885
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "5763",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "\nSolutions for your problem statement",
+          "paragraphs": [
+            "",
+            "Solutions for your problem statement"
+          ],
+          "id": "2",
+          "kind": "grpSp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 7",
+          "box": {
+            "x": 15.078,
+            "w": 3.805,
+            "y": 10.073,
+            "h": 0.422
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "2236",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2026",
+          "paragraphs": [
+            "ASTROMANTHAN 2026"
+          ],
+          "id": "7",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": "rId2",
+          "name": "Freeform 8",
+          "box": {
+            "x": 18.875,
+            "w": 0.769,
+            "y": 0.222,
+            "h": 0.77
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "8",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 8",
+          "box": {
+            "x": 0.7,
+            "w": 9.0,
+            "y": 2.2,
+            "h": 6.4
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "9",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 9",
+          "box": {
+            "x": 10.0,
+            "w": 9.3,
+            "y": 2.2,
+            "h": 6.4
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "10",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 10",
+          "box": {
+            "x": 0.8,
+            "w": 8.8,
+            "y": 2.3,
+            "h": 6.2
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Data preparation\nClean: invalid text, non-finite and out-of-bound values become NaN (Dataset_29).\nDrop: IDs, coordinates, observation bookkeeping, spectral type, galaxy-population fields.\nClasses: star vs galaxy; 10,439 QSO excluded.\nDuplicates: identity matching removed 37 unidentifiable rows and 126 conflicting-label rows, and collapsed 197 repeats: 100,050 → 89,251.\nMissing values: median fill, learned inside each training fold.\nLeakage: redshift excluded (stars sit at |z| < 0.005).",
+          "paragraphs": [
+            "Data preparation",
+            "Clean: invalid text, non-finite and out-of-bound values become NaN (Dataset_29).",
+            "Drop: IDs, coordinates, observation bookkeeping, spectral type, galaxy-population fields.",
+            "Classes: star vs galaxy; 10,439 QSO excluded.",
+            "Duplicates: identity matching removed 37 unidentifiable rows and 126 conflicting-label rows, and collapsed 197 repeats: 100,050 → 89,251.",
+            "Missing values: median fill, learned inside each training fold.",
+            "Leakage: redshift excluded (stars sit at |z| < 0.005)."
+          ],
+          "id": "11",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 11",
+          "box": {
+            "x": 10.1,
+            "w": 9.1,
+            "y": 2.3,
+            "h": 6.2
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Features, model, evaluation\nFeatures: 30 measurements plus 30 derived = 60 inputs: 5 colours, 5 PSF-minus-magnitude, 5 radius ratios, 10 log radii, 5 asinh fluxes.\nModel: Histogram Gradient Boosting (HistGB_deeper), compared with a logistic-regression baseline.\nValidation: 80/20 split (71,401 development, 17,850 test), five-fold CV; only the chosen model touched the test set.\nSelection: permutation importance: drop in macro-F1 when an input is shuffled.\nMetrics: accuracy, macro-F1, confusion matrix.",
+          "paragraphs": [
+            "Features, model, evaluation",
+            "Features: 30 measurements plus 30 derived = 60 inputs: 5 colours, 5 PSF-minus-magnitude, 5 radius ratios, 10 log radii, 5 asinh fluxes.",
+            "Model: Histogram Gradient Boosting (HistGB_deeper), compared with a logistic-regression baseline.",
+            "Validation: 80/20 split (71,401 development, 17,850 test), five-fold CV; only the chosen model touched the test set.",
+            "Selection: permutation importance: drop in macro-F1 when an input is shuffled.",
+            "Metrics: accuracy, macro-F1, confusion matrix."
+          ],
+          "id": "12",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 12",
+          "box": {
+            "x": 0.7,
+            "w": 18.6,
+            "y": 8.9,
+            "h": 0.9
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "13",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 13",
+          "box": {
+            "x": 0.8,
+            "w": 18.4,
+            "y": 8.9,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Vs conventional: a single morphology or colour cut, versus an audited, leakage-checked pipeline validated by cross-validation.",
+          "paragraphs": [
+            "Vs conventional: a single morphology or colour cut, versus an audited, leakage-checked pipeline validated by cross-validation."
+          ],
+          "id": "14",
+          "kind": "sp",
+          "placeholder": null
+        }
+      ],
+      "number": 3,
+      "relationships": [
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+          "id": "rId1",
+          "target": "../slideLayouts/slideLayout7.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId2",
+          "target": "../media/image3.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+          "id": "rId3",
+          "target": "../notesSlides/notesSlide2.xml"
+        }
+      ],
+      "notes": "SAY: Three parts: clean and audit the data, keep stars and galaxies only with repeated objects collapsed, then train a Histogram Gradient Boosting model on 60 inputs validated with five-fold CV on 71,401 development rows and scored once on 17,850 held-out objects. Redshift is excluded because it nearly gives the label for stars.\nCAUTION: the radius ratio is Petrosian radius / half-light radius, not the conventional R90/R50 concentration, and the band magnitudes were not verified as model/cmodel magnitudes. Say so if asked.\nKEY CLAIM: a leakage-free pipeline gives a score we can defend.\nEVIDENCE: held-out accuracy 99.48%, macro-F1 0.9946 (slide 4)."
+    },
+    {
+      "shapes": [
+        {
+          "imageRel": null,
+          "name": "",
+          "box": null,
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "1",
+          "kind": "nvGrpSpPr",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Group 2",
+          "box": {
+            "x": 0.0,
+            "w": 20.0,
+            "y": 0.0,
+            "h": 1.885
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "5763",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "\nHow does your model helps solving this?",
+          "paragraphs": [
+            "",
+            "How does your model helps solving this?"
+          ],
+          "id": "2",
+          "kind": "grpSp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 7",
+          "box": {
+            "x": 15.078,
+            "w": 3.805,
+            "y": 10.073,
+            "h": 0.422
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "2236",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2026",
+          "paragraphs": [
+            "ASTROMANTHAN 2026"
+          ],
+          "id": "7",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": "rId2",
+          "name": "Freeform 8",
+          "box": {
+            "x": 18.875,
+            "w": 0.769,
+            "y": 0.222,
+            "h": 0.77
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "8",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 8",
+          "box": {
+            "x": 1.6,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "1",
+          "paragraphs": [
+            "1"
+          ],
+          "id": "9",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 9",
+          "box": {
+            "x": 0.7,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Load",
+          "paragraphs": [
+            "Load"
+          ],
+          "id": "10",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 10",
+          "box": {
+            "x": 0.7,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Dataset_29",
+          "paragraphs": [
+            "Dataset_29"
+          ],
+          "id": "11",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 11",
+          "box": {
+            "x": 4.3,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "2",
+          "paragraphs": [
+            "2"
+          ],
+          "id": "12",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 12",
+          "box": {
+            "x": 3.4,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Inspect",
+          "paragraphs": [
+            "Inspect"
+          ],
+          "id": "13",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 13",
+          "box": {
+            "x": 3.4,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "shape, junk tokens, classes",
+          "paragraphs": [
+            "shape, junk tokens, classes"
+          ],
+          "id": "14",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 14",
+          "box": {
+            "x": 7.0,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "3",
+          "paragraphs": [
+            "3"
+          ],
+          "id": "15",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 15",
+          "box": {
+            "x": 6.1,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Clean",
+          "paragraphs": [
+            "Clean"
+          ],
+          "id": "16",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 16",
+          "box": {
+            "x": 6.1,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "NaN, bounds, drop IDs, QSO",
+          "paragraphs": [
+            "NaN, bounds, drop IDs, QSO"
+          ],
+          "id": "17",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 17",
+          "box": {
+            "x": 9.7,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "4",
+          "paragraphs": [
+            "4"
+          ],
+          "id": "18",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 18",
+          "box": {
+            "x": 8.8,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Explore",
+          "paragraphs": [
+            "Explore"
+          ],
+          "id": "19",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 19",
+          "box": {
+            "x": 8.8,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "colours, ratios, plots",
+          "paragraphs": [
+            "colours, ratios, plots"
+          ],
+          "id": "20",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 20",
+          "box": {
+            "x": 12.4,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "5",
+          "paragraphs": [
+            "5"
+          ],
+          "id": "21",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 21",
+          "box": {
+            "x": 11.5,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Split",
+          "paragraphs": [
+            "Split"
+          ],
+          "id": "22",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 22",
+          "box": {
+            "x": 11.5,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "80/20, held-out test",
+          "paragraphs": [
+            "80/20, held-out test"
+          ],
+          "id": "23",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 23",
+          "box": {
+            "x": 15.1,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "6",
+          "paragraphs": [
+            "6"
+          ],
+          "id": "24",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 24",
+          "box": {
+            "x": 14.2,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Train",
+          "paragraphs": [
+            "Train"
+          ],
+          "id": "25",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 25",
+          "box": {
+            "x": 14.2,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "HistGB, 5-fold CV",
+          "paragraphs": [
+            "HistGB, 5-fold CV"
+          ],
+          "id": "26",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Oval 26",
+          "box": {
+            "x": 17.8,
+            "w": 0.8,
+            "y": 2.2,
+            "h": 0.8
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill>"
+            }
+          ],
+          "text": "7",
+          "paragraphs": [
+            "7"
+          ],
+          "id": "27",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 27",
+          "box": {
+            "x": 16.9,
+            "w": 2.6,
+            "y": 3.05,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Evaluate",
+          "paragraphs": [
+            "Evaluate"
+          ],
+          "id": "28",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 28",
+          "box": {
+            "x": 16.9,
+            "w": 2.6,
+            "y": 3.55,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "accuracy, macro-F1, confusion",
+          "paragraphs": [
+            "accuracy, macro-F1, confusion"
+          ],
+          "id": "29",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Table 29",
+          "box": {
+            "x": 0.7,
+            "w": 9.2,
+            "y": 4.6,
+            "h": 1.38
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Cross-validation\nAccuracy\nMacro-F1\nLogistic regression\n99.196%\n0.9918 ± 0.0008\nHistGB_deeper (final)\n99.480%\n0.9946 ± 0.0011",
+          "paragraphs": [
+            "Cross-validation",
+            "Accuracy",
+            "Macro-F1",
+            "Logistic regression",
+            "99.196%",
+            "0.9918 ± 0.0008",
+            "HistGB_deeper (final)",
+            "99.480%",
+            "0.9946 ± 0.0011"
+          ],
+          "id": "30",
+          "kind": "graphicFrame",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Table 30",
+          "box": {
+            "x": 0.7,
+            "w": 9.2,
+            "y": 6.2,
+            "h": 0.92
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Held-out test (17,850)\nAccuracy\nMacro-F1\nHistGB_deeper\n99.48%\n0.9946",
+          "paragraphs": [
+            "Held-out test (17,850)",
+            "Accuracy",
+            "Macro-F1",
+            "HistGB_deeper",
+            "99.48%",
+            "0.9946"
+          ],
+          "id": "31",
+          "kind": "graphicFrame",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Table 31",
+          "box": {
+            "x": 0.7,
+            "w": 9.2,
+            "y": 7.35,
+            "h": 1.65
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "2000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Actual ↓  Pred. →\nGALAXY\nSTAR\nGALAXY\n10,383\n60\nSTAR\n33\n7,374",
+          "paragraphs": [
+            "Actual ↓  Pred. →",
+            "GALAXY",
+            "STAR",
+            "GALAXY",
+            "10,383",
+            "60",
+            "STAR",
+            "33",
+            "7,374"
+          ],
+          "id": "32",
+          "kind": "graphicFrame",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 32",
+          "box": {
+            "x": 0.7,
+            "w": 9.2,
+            "y": 9.05,
+            "h": 0.6
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1500",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"6B627A\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Confusion matrix: 93 errors out of 17,850 test objects",
+          "paragraphs": [
+            "Confusion matrix: 93 errors out of 17,850 test objects"
+          ],
+          "id": "33",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 33",
+          "box": {
+            "x": 10.3,
+            "w": 9.0,
+            "y": 4.6,
+            "h": 5.2
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "34",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 34",
+          "box": {
+            "x": 10.4,
+            "w": 8.8,
+            "y": 4.7,
+            "h": 4.4
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "2200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Why this model fits\nBeats baseline: CV macro-F1 up 0.29 points over logistic regression, a small but measured gain.\nRich inputs: colours, PSF-minus-magnitude and radius ratios capture point-like vs extended.\nBalanced errors: 60 galaxies called stars, 33 stars called galaxies.\nLeakage-safe: redshift, IDs and coordinates excluded; repeated objects collapsed.\nKnown limit: transfer to Dataset_24 was weak (macro-F1 0.478).",
+          "paragraphs": [
+            "Why this model fits",
+            "Beats baseline: CV macro-F1 up 0.29 points over logistic regression, a small but measured gain.",
+            "Rich inputs: colours, PSF-minus-magnitude and radius ratios capture point-like vs extended.",
+            "Balanced errors: 60 galaxies called stars, 33 stars called galaxies.",
+            "Leakage-safe: redshift, IDs and coordinates excluded; repeated objects collapsed.",
+            "Known limit: transfer to Dataset_24 was weak (macro-F1 0.478)."
+          ],
+          "id": "35",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 35",
+          "box": {
+            "x": 10.4,
+            "w": 8.8,
+            "y": 9.15,
+            "h": 0.6
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "1400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1400",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"C0392B\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Add: feature-importance chart and actual-vs-predicted plot (images needed). [TEAM]",
+          "paragraphs": [
+            "Add: feature-importance chart and actual-vs-predicted plot (images needed). [TEAM]"
+          ],
+          "id": "36",
+          "kind": "sp",
+          "placeholder": null
+        }
+      ],
+      "number": 4,
+      "relationships": [
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+          "id": "rId1",
+          "target": "../slideLayouts/slideLayout7.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId2",
+          "target": "../media/image3.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+          "id": "rId3",
+          "target": "../notesSlides/notesSlide3.xml"
+        }
+      ],
+      "notes": "SAY: Walk the seven steps. Final model HistGB_deeper: five-fold CV macro-F1 0.9946 vs 0.9918 for logistic regression (a 0.29-point gain), then 99.48% accuracy and 0.9946 macro-F1 on 17,850 held-out objects: 10,383 galaxies and 7,374 stars correct, 60 galaxies called stars, 33 stars called galaxies (93 errors). Only the chosen model touched the test set.\nPIPELINE: 1 Load Dataset_29. 2 Inspect. 3 Clean: bad text and out-of-bound values to NaN, drop IDs/coordinates/bookkeeping/spectral fields, drop QSO and redshift, collapse repeated objects (100,050 to 89,251). 4 Build 30 derived features (60 inputs). 5 Split 80/20 (71,401 / 17,850). 6 Median-fill inside each fold, five-fold CV, pick HistGB_deeper. 7 Evaluate on test, permutation importance for interpretation. Output: probability per object; near 0.5 goes to follow-up.\nHONEST LIMIT: a separate 5-band colour model scored macro-F1 0.968 on Dataset_29 holdout but 0.478 on Dataset_24, so we do not claim cross-survey generalisation.\nKEY CLAIM: the model generalises to unseen Dataset_29 objects.\nEVIDENCE: CV table, held-out metrics, confusion matrix (measured)."
+    },
+    {
+      "shapes": [
+        {
+          "imageRel": null,
+          "name": "",
+          "box": null,
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "1",
+          "kind": "nvGrpSpPr",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Group 2",
+          "box": {
+            "x": 0.0,
+            "w": 20.0,
+            "y": 0.0,
+            "h": 1.885
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "2",
+          "kind": "grpSp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 5",
+          "box": {
+            "x": 7.083,
+            "w": 5.608,
+            "y": 0.43,
+            "h": 1.094
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "5763",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Future Scope",
+          "paragraphs": [
+            "Future Scope"
+          ],
+          "id": "5",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 6",
+          "box": {
+            "x": 15.067,
+            "w": 3.805,
+            "y": 10.073,
+            "h": 0.422
+          },
+          "runs": [
+            {
+              "bold": null,
+              "size": "2236",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:ea typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:cs typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" /><a:sym typeface=\"League Spartan\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "ASTROMANTHAN 2026",
+          "paragraphs": [
+            "ASTROMANTHAN 2026"
+          ],
+          "id": "6",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": "rId2",
+          "name": "Freeform 7",
+          "box": {
+            "x": 18.875,
+            "w": 0.769,
+            "y": 0.222,
+            "h": 0.77
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [],
+          "id": "7",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 7",
+          "box": {
+            "x": 0.7,
+            "w": 6.0,
+            "y": 2.2,
+            "h": 2.0
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "8",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 8",
+          "box": {
+            "x": 0.8,
+            "w": 5.8,
+            "y": 2.25,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "4000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "20B + 17B",
+          "paragraphs": [
+            "20B + 17B"
+          ],
+          "id": "9",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 9",
+          "box": {
+            "x": 0.8,
+            "w": 5.8,
+            "y": 3.2,
+            "h": 0.95
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "galaxies and stars expected in Rubin’s LSST catalogue",
+          "paragraphs": [
+            "galaxies and stars expected in Rubin’s LSST catalogue"
+          ],
+          "id": "10",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 10",
+          "box": {
+            "x": 7.0,
+            "w": 6.0,
+            "y": 2.2,
+            "h": 2.0
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "11",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 11",
+          "box": {
+            "x": 7.1,
+            "w": 5.8,
+            "y": 2.25,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "4000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "up to 20 TB",
+          "paragraphs": [
+            "up to 20 TB"
+          ],
+          "id": "12",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 12",
+          "box": {
+            "x": 7.1,
+            "w": 5.8,
+            "y": 3.2,
+            "h": 0.95
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "of raw images per night from Rubin",
+          "paragraphs": [
+            "of raw images per night from Rubin"
+          ],
+          "id": "13",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 13",
+          "box": {
+            "x": 13.3,
+            "w": 6.0,
+            "y": 2.2,
+            "h": 2.0
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "14",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 14",
+          "box": {
+            "x": 13.4,
+            "w": 5.8,
+            "y": 2.25,
+            "h": 0.9
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "4000",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"543D74\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "millions",
+          "paragraphs": [
+            "millions"
+          ],
+          "id": "15",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 15",
+          "box": {
+            "x": 13.4,
+            "w": 5.8,
+            "y": 3.2,
+            "h": 0.95
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1800",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "of alerts per night sent to community ML brokers",
+          "paragraphs": [
+            "of alerts per night sent to community ML brokers"
+          ],
+          "id": "16",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Table 16",
+          "box": {
+            "x": 0.7,
+            "w": 18.6,
+            "y": 4.4,
+            "h": 3.72
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "1",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1600",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"2B2438\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Market segment\nLatest size\nForecast\nCAGR\nSource type\nAstronomy data analysis AI\n$2.1B (2025); $2.49B (2026)\n$9.8B by 2034\n18.4%\nMarket-research report (Marketintelo)\nAstronomy and space sciences (overall)\n$18.9B (2025); $20.6B (2026)\n$37.1B by 2033\n8.8%\nMarket-research report (Future Data Stats)\nSpace-based AI assistants\n$1.3B (2025); $1.51B (2026)\nn/a\n16.2%\nMarket-research summary\nSmart telescopes incl. AI sky-mapping software\n$480M (2025)\n$2.24B by 2034\n18.7%\nMarket-research report (HTF MI)\nIndia space economy\nAbout $9B (Aug 2026); $8.4B (Jan 2026)\n$40–45B over next decade\nn/a\nGovernment figures (PIB, IN-SPACe)",
+          "paragraphs": [
+            "Market segment",
+            "Latest size",
+            "Forecast",
+            "CAGR",
+            "Source type",
+            "Astronomy data analysis AI",
+            "$2.1B (2025); $2.49B (2026)",
+            "$9.8B by 2034",
+            "18.4%",
+            "Market-research report (Marketintelo)",
+            "Astronomy and space sciences (overall)",
+            "$18.9B (2025); $20.6B (2026)",
+            "$37.1B by 2033",
+            "8.8%",
+            "Market-research report (Future Data Stats)",
+            "Space-based AI assistants",
+            "$1.3B (2025); $1.51B (2026)",
+            "n/a",
+            "16.2%",
+            "Market-research summary",
+            "Smart telescopes incl. AI sky-mapping software",
+            "$480M (2025)",
+            "$2.24B by 2034",
+            "18.7%",
+            "Market-research report (HTF MI)",
+            "India space economy",
+            "About $9B (Aug 2026); $8.4B (Jan 2026)",
+            "$40–45B over next decade",
+            "n/a",
+            "Government figures (PIB, IN-SPACe)"
+          ],
+          "id": "17",
+          "kind": "graphicFrame",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "Rounded Rectangle 17",
+          "box": {
+            "x": 0.7,
+            "w": 18.6,
+            "y": 8.6,
+            "h": 0.75
+          },
+          "runs": [],
+          "text": "",
+          "paragraphs": [
+            ""
+          ],
+          "id": "18",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 18",
+          "box": {
+            "x": 0.8,
+            "w": 18.4,
+            "y": 8.6,
+            "h": 0.75
+          },
+          "runs": [
+            {
+              "bold": "1",
+              "size": "1900",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            },
+            {
+              "bold": "0",
+              "size": "1900",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"FFFFFF\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Future scope: probability calibration and uncertainty, QSO as a third class, other surveys and image models, rare-object detection.",
+          "paragraphs": [
+            "Future scope: probability calibration and uncertainty, QSO as a third class, other surveys and image models, rare-object detection."
+          ],
+          "id": "19",
+          "kind": "sp",
+          "placeholder": null
+        },
+        {
+          "imageRel": null,
+          "name": "TextBox 19",
+          "box": {
+            "x": 0.7,
+            "w": 18.6,
+            "y": 9.45,
+            "h": 0.5
+          },
+          "runs": [
+            {
+              "bold": "0",
+              "size": "1200",
+              "color": "<a:solidFill xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\"><a:srgbClr val=\"6B627A\" /></a:solidFill><a:latin typeface=\"Calibri\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" />"
+            }
+          ],
+          "text": "Sources: Marketintelo, Future Data Stats, HTF MI, PIB, IN-SPACe (market-research and government figures, not independently verified); Rubin/LSST project pages.",
+          "paragraphs": [
+            "Sources: Marketintelo, Future Data Stats, HTF MI, PIB, IN-SPACe (market-research and government figures, not independently verified); Rubin/LSST project pages."
+          ],
+          "id": "20",
+          "kind": "sp",
+          "placeholder": null
+        }
+      ],
+      "number": 5,
+      "relationships": [
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/slideLayout",
+          "id": "rId1",
+          "target": "../slideLayouts/slideLayout7.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+          "id": "rId2",
+          "target": "../media/image3.png"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/notesSlide",
+          "id": "rId3",
+          "target": "../notesSlides/notesSlide4.xml"
+        },
+        {
+          "type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+          "id": "rId4",
+          "target": "../charts/chart2.xml"
+        }
+      ],
+      "notes": "SAY: Real-world application. Rubin's LSST expects about 20 billion galaxies and 17 billion stars, far beyond manual labelling. The table shows astronomy-related market segments from analyst reports and government figures; estimates differ by report and are not independently verified, so quote them as ranges. Our classifier is a small piece of that data-analysis pipeline. Future scope: calibration and uncertainty, QSO as a third class, other surveys, rare-object detection.\nKEY CLAIM: automated star-galaxy classification is needed at survey scale.\nEVIDENCE: Rubin project figures; market-research estimates (caveat)."
+    }
+  ],
+  "charts": [
+    {
+      "path": "ppt/charts/chart1.xml",
+      "xml": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<c:chartSpace xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><c:date1904 val=\"0\"/><c:chart><c:title><c:tx><c:rich><a:bodyPr/><a:lstStyle/><a:p><a:r><a:rPr sz=\"1800\"><a:solidFill><a:srgbClr val=\"543D74\"/></a:solidFill></a:rPr><a:t>Class counts (measured)</a:t></a:r></a:p></c:rich></c:tx><c:layout/><c:overlay val=\"0\"/></c:title><c:autoTitleDeleted val=\"0\"/><c:plotArea><c:barChart><c:barDir val=\"col\"/><c:grouping val=\"clustered\"/><c:ser><c:idx val=\"0\"/><c:order val=\"0\"/><c:tx><c:strRef><c:f>Sheet1!$B$1</c:f><c:strCache><c:ptCount val=\"1\"/><c:pt idx=\"0\"><c:v>Dataset_29</c:v></c:pt></c:strCache></c:strRef></c:tx><c:spPr><a:solidFill><a:srgbClr val=\"543D74\"/></a:solidFill></c:spPr><c:cat><c:strRef><c:f>Sheet1!$A$2:$A$4</c:f><c:strCache><c:ptCount val=\"3\"/><c:pt idx=\"0\"><c:v>GALAXY</c:v></c:pt><c:pt idx=\"1\"><c:v>STAR</c:v></c:pt><c:pt idx=\"2\"><c:v>QSO</c:v></c:pt></c:strCache></c:strRef></c:cat><c:val><c:numRef><c:f>Sheet1!$B$2:$B$4</c:f><c:numCache><c:formatCode>General</c:formatCode><c:ptCount val=\"3\"/><c:pt idx=\"0\"><c:v>52361</c:v></c:pt><c:pt idx=\"1\"><c:v>37250</c:v></c:pt><c:pt idx=\"2\"><c:v>10439</c:v></c:pt></c:numCache></c:numRef></c:val></c:ser><c:ser><c:idx val=\"1\"/><c:order val=\"1\"/><c:tx><c:strRef><c:f>Sheet1!$C$1</c:f><c:strCache><c:ptCount val=\"1\"/><c:pt idx=\"0\"><c:v>Dataset_24</c:v></c:pt></c:strCache></c:strRef></c:tx><c:spPr><a:solidFill><a:srgbClr val=\"E8A33D\"/></a:solidFill></c:spPr><c:cat><c:strRef><c:f>Sheet1!$A$2:$A$4</c:f><c:strCache><c:ptCount val=\"3\"/><c:pt idx=\"0\"><c:v>GALAXY</c:v></c:pt><c:pt idx=\"1\"><c:v>STAR</c:v></c:pt><c:pt idx=\"2\"><c:v>QSO</c:v></c:pt></c:strCache></c:strRef></c:cat><c:val><c:numRef><c:f>Sheet1!$C$2:$C$4</c:f><c:numCache><c:formatCode>General</c:formatCode><c:ptCount val=\"3\"/><c:pt idx=\"0\"><c:v>59445</c:v></c:pt><c:pt idx=\"1\"><c:v>21593</c:v></c:pt><c:pt idx=\"2\"><c:v>18961</c:v></c:pt></c:numCache></c:numRef></c:val></c:ser><c:axId val=\"-2068027336\"/><c:axId val=\"-2113994440\"/></c:barChart><c:catAx><c:axId val=\"-2068027336\"/><c:scaling><c:orientation val=\"minMax\"/></c:scaling><c:delete val=\"0\"/><c:axPos val=\"b\"/><c:majorTickMark val=\"out\"/><c:minorTickMark val=\"none\"/><c:tickLblPos val=\"nextTo\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1400\"/></a:pPr></a:p></c:txPr><c:crossAx val=\"-2113994440\"/><c:crosses val=\"autoZero\"/><c:auto val=\"1\"/><c:lblAlgn val=\"ctr\"/><c:lblOffset val=\"100\"/><c:noMultiLvlLbl val=\"0\"/></c:catAx><c:valAx><c:axId val=\"-2113994440\"/><c:scaling/><c:delete val=\"0\"/><c:axPos val=\"l\"/><c:majorGridlines><c:spPr><a:ln><a:solidFill><a:srgbClr val=\"D9D3E6\"/></a:solidFill></a:ln></c:spPr></c:majorGridlines><c:numFmt formatCode=\"#,##0\" sourceLinked=\"0\"/><c:majorTickMark val=\"out\"/><c:minorTickMark val=\"none\"/><c:tickLblPos val=\"nextTo\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1200\"/></a:pPr></a:p></c:txPr><c:crossAx val=\"-2068027336\"/><c:crosses val=\"autoZero\"/></c:valAx></c:plotArea><c:legend><c:legendPos val=\"b\"/><c:overlay val=\"0\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1400\"/></a:pPr></a:p></c:txPr></c:legend><c:dispBlanksAs val=\"gap\"/></c:chart><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1800\"/></a:pPr><a:endParaRPr lang=\"en-US\"/></a:p></c:txPr><c:externalData r:id=\"rId1\"><c:autoUpdate val=\"0\"/></c:externalData></c:chartSpace>"
+    },
+    {
+      "path": "ppt/charts/chart2.xml",
+      "xml": "<?xml version='1.0' encoding='UTF-8' standalone='yes'?>\n<c:chartSpace xmlns:c=\"http://schemas.openxmlformats.org/drawingml/2006/chart\" xmlns:a=\"http://schemas.openxmlformats.org/drawingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\"><c:date1904 val=\"0\"/><c:chart><c:autoTitleDeleted val=\"0\"/><c:plotArea><c:barChart><c:barDir val=\"bar\"/><c:grouping val=\"clustered\"/><c:ser><c:idx val=\"0\"/><c:order val=\"0\"/><c:tx><c:strRef><c:f>Sheet1!$B$1</c:f><c:strCache><c:ptCount val=\"1\"/><c:pt idx=\"0\"><c:v>Now ($B)</c:v></c:pt></c:strCache></c:strRef></c:tx><c:spPr><a:solidFill><a:srgbClr val=\"E8A33D\"/></a:solidFill></c:spPr><c:cat><c:strRef><c:f>Sheet1!$A$2:$A$5</c:f><c:strCache><c:ptCount val=\"4\"/><c:pt idx=\"0\"><c:v>Satellite AI analytics (to 2033, 23.8%/yr)</c:v></c:pt><c:pt idx=\"1\"><c:v>Satellite data analytics (to 2034, 18.5%/yr)</c:v></c:pt><c:pt idx=\"2\"><c:v>AI satellite data analytics (to 2034, 11.8%/yr)</c:v></c:pt><c:pt idx=\"3\"><c:v>Space data analytics (2025, to 2033, 20.9%/yr)</c:v></c:pt></c:strCache></c:strRef></c:cat><c:val><c:numRef><c:f>Sheet1!$B$2:$B$5</c:f><c:numCache><c:formatCode>General</c:formatCode><c:ptCount val=\"4\"/><c:pt idx=\"0\"><c:v>3.9</c:v></c:pt><c:pt idx=\"1\"><c:v>6.8</c:v></c:pt><c:pt idx=\"2\"><c:v>4.31</c:v></c:pt><c:pt idx=\"3\"><c:v>2.64</c:v></c:pt></c:numCache></c:numRef></c:val></c:ser><c:ser><c:idx val=\"1\"/><c:order val=\"1\"/><c:tx><c:strRef><c:f>Sheet1!$C$1</c:f><c:strCache><c:ptCount val=\"1\"/><c:pt idx=\"0\"><c:v>Forecast ($B)</c:v></c:pt></c:strCache></c:strRef></c:tx><c:spPr><a:solidFill><a:srgbClr val=\"543D74\"/></a:solidFill></c:spPr><c:cat><c:strRef><c:f>Sheet1!$A$2:$A$5</c:f><c:strCache><c:ptCount val=\"4\"/><c:pt idx=\"0\"><c:v>Satellite AI analytics (to 2033, 23.8%/yr)</c:v></c:pt><c:pt idx=\"1\"><c:v>Satellite data analytics (to 2034, 18.5%/yr)</c:v></c:pt><c:pt idx=\"2\"><c:v>AI satellite data analytics (to 2034, 11.8%/yr)</c:v></c:pt><c:pt idx=\"3\"><c:v>Space data analytics (2025, to 2033, 20.9%/yr)</c:v></c:pt></c:strCache></c:strRef></c:cat><c:val><c:numRef><c:f>Sheet1!$C$2:$C$5</c:f><c:numCache><c:formatCode>General</c:formatCode><c:ptCount val=\"4\"/><c:pt idx=\"0\"><c:v>17.4</c:v></c:pt><c:pt idx=\"1\"><c:v>26.5</c:v></c:pt><c:pt idx=\"2\"><c:v>9.76</c:v></c:pt><c:pt idx=\"3\"><c:v>12.03</c:v></c:pt></c:numCache></c:numRef></c:val></c:ser><c:dLbls><c:numFmt formatCode=\"$0.0&quot;B&quot;\" sourceLinked=\"0\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1300\"/></a:pPr></a:p></c:txPr><c:dLblPos val=\"outEnd\"/><c:showLegendKey val=\"0\"/><c:showVal val=\"1\"/><c:showCatName val=\"0\"/><c:showSerName val=\"0\"/><c:showPercent val=\"0\"/><c:showBubbleSize val=\"0\"/><c:showLeaderLines val=\"1\"/></c:dLbls><c:axId val=\"-2068027336\"/><c:axId val=\"-2113994440\"/></c:barChart><c:catAx><c:axId val=\"-2068027336\"/><c:scaling><c:orientation val=\"maxMin\"/></c:scaling><c:delete val=\"0\"/><c:axPos val=\"l\"/><c:majorTickMark val=\"out\"/><c:minorTickMark val=\"none\"/><c:tickLblPos val=\"nextTo\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1300\"/></a:pPr></a:p></c:txPr><c:crossAx val=\"-2113994440\"/><c:crosses val=\"autoZero\"/><c:auto val=\"1\"/><c:lblAlgn val=\"ctr\"/><c:lblOffset val=\"100\"/><c:noMultiLvlLbl val=\"0\"/></c:catAx><c:valAx><c:axId val=\"-2113994440\"/><c:scaling/><c:delete/><c:axPos val=\"b\"/><c:majorTickMark val=\"out\"/><c:minorTickMark val=\"none\"/><c:tickLblPos val=\"nextTo\"/><c:crossAx val=\"-2068027336\"/><c:crosses val=\"autoZero\"/></c:valAx></c:plotArea><c:legend><c:legendPos val=\"b\"/><c:overlay val=\"0\"/><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1400\"/></a:pPr></a:p></c:txPr></c:legend><c:dispBlanksAs val=\"gap\"/></c:chart><c:txPr><a:bodyPr/><a:lstStyle/><a:p><a:pPr><a:defRPr sz=\"1800\"/></a:pPr><a:endParaRPr lang=\"en-US\"/></a:p></c:txPr><c:externalData r:id=\"rId1\"><c:autoUpdate val=\"0\"/></c:externalData></c:chartSpace>"
+    }
+  ]
+}
