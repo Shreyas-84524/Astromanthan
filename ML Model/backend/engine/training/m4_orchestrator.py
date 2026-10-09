@@ -132,30 +132,44 @@ class M4PipelineRunner:
         ag_model_dir = work_stage / "ag_fit_raw"
         ag_stage_dir = work_stage / "ag_ipc_work"
 
-        ag_result: AutoGluonBackendResult = AutoGluonBackend.fit(
-            df_train=df_train,
-            target_column=target_column,
-            problem_type=resolved_problem_type,
-            eval_metric=eval_metric,
-            time_limit_seconds=time_limit_seconds,
-            presets=presets,
-            auto_stack=auto_stack,
-            output_dir=ag_model_dir,
-            working_dir=ag_stage_dir,
-        )
+        backend_warnings: List[str] = []
+        try:
+            ag_result: AutoGluonBackendResult = AutoGluonBackend.fit(
+                df_train=df_train,
+                target_column=target_column,
+                problem_type=resolved_problem_type,
+                eval_metric=eval_metric,
+                time_limit_seconds=time_limit_seconds,
+                presets=presets,
+                auto_stack=auto_stack,
+                output_dir=ag_model_dir,
+                working_dir=ag_stage_dir,
+            )
+            if ag_result.status.value != "success":
+                raise RuntimeError(ag_result.error_message or "AutoGluon worker failed")
 
-        if ag_result.status.value != "success":
-            raise RuntimeError(f"AutoGluon training failed: {ag_result.error_message}")
-
-        # 7. Evaluate AutoGluon on external VALIDATION and build candidate
-        ag_candidate = ChampionSelector.candidate_from_autogluon(
-            ag_result=ag_result,
-            df_val=df_val,
-            target_column=target_column,
-            problem_type=resolved_problem_type,
-            expected_class_labels=expected_classes,
-        )
-        candidates.append(ag_candidate)
+            # 7. Evaluate successful AutoGluon candidate on VALIDATION only.
+            ag_candidate = ChampionSelector.candidate_from_autogluon(
+                ag_result=ag_result,
+                df_val=df_val,
+                target_column=target_column,
+                problem_type=resolved_problem_type,
+                expected_class_labels=expected_classes,
+            )
+            candidates.append(ag_candidate)
+        except Exception as exc:
+            # A missing optional backend must not discard successful baselines.
+            # Keep the failure visible in the saved manifest and UI rationale.
+            if not candidates:
+                raise RuntimeError(
+                    f"No usable model candidates. AutoGluon failed: {exc}"
+                ) from exc
+            warning = (
+                f"AutoGluon unavailable or failed ({type(exc).__name__}: {exc}). "
+                "Selected from successful baseline models only."
+            )
+            backend_warnings.append(warning)
+            logger.warning(warning)
 
         # 8. Champion Selection on External VALIDATION
         selection_result = ChampionSelector.select_champion(
@@ -163,6 +177,8 @@ class M4PipelineRunner:
             problem_type=resolved_problem_type,
             primary_metric=eval_metric,
         )
+        if backend_warnings:
+            selection_result.selection_rationale += " " + " ".join(backend_warnings)
 
         # 9. Final Test Evaluation (Untouched TEST partition, single pass)
         test_eval_result = FinalTestEvaluator.evaluate_champion(
@@ -217,4 +233,5 @@ class M4PipelineRunner:
             "df_val": df_val,
             "df_test": df_test,
             "total_runtime_seconds": total_runtime,
+            "backend_warnings": backend_warnings,
         }
